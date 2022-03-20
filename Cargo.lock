@@ -145,6 +145,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "bloataware"
+version = "0.1.0"
+dependencies = [
+ "notify-rust",
+ "sysinfo",
+]
+
+[[package]]
 name = "block"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -374,14 +382,6 @@ dependencies = [
  "pin-project-lite",
  "pin-utils",
  "slab",
-]
-
-[[package]]
-name = "g-cho"
-version = "0.1.0"
-dependencies = [
- "notify-rust",
- "sysinfo",
 ]
 
 [[package]]
